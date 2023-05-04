@@ -28,4 +28,14 @@ If there are new files that the user wants to clean out also, we can run the cle
 git clean -f -- frontend
 ```
 
+And here is how we can add a nice collapsible block at the end of each step with instructions on how to grab that specific step answer key:
 
+<details>
+  <summary>Need help with this step?</summary>
+  
+  You can set your entire backend folder to the current step by running a git command to grab it from the repo
+
+  ```sh
+git checkout tags/4.4 -b answer -- backend
+```
+</details>
